@@ -15,8 +15,8 @@ function verifyguess
     then echo "Guess is lesser than expected"
     elif [[ $1 -gt $2 ]]
     then echo "Guess is higher than expected"
-    else
-    then echo "Congratulations!!"
+    else echo "Congratulations!!"
+    fi
 }
 
 
